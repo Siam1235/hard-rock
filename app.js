@@ -19,7 +19,7 @@ const songsList = songs => {
             <h3 class="lyrics-name">${song.title}</h3>
             <p class="author lead">Album by <span>${song.artist.name}</span></p>
             <audio controls>
-                <source src="${song.preview}" type="audio/ogg">
+                <source src="${song.preview}" type="audio/mpeg">
             </audio>
       </div>
       <div class="col-md-3 text-md-right text-center">
